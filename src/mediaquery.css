@@ -1,0 +1,44 @@
+@media screen and (max-width: 992px) {
+  .nav-menu {
+    display: block;
+    right: -16%;
+    height: 114vh;
+    position: fixed;
+    left: 101%;
+    top: 0%;
+    background-color: rgba(255, 255, 255, 0.588);
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 90px 40px;
+  }
+  .checkbox:checked ~ .nav-menu {
+    transform: translateX(-109px);
+    transition: 0.5s;
+    left: 60%;
+  }
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer {
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+  }
+  .footer_link {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .button {
+    display: inline-block;
+    position: relative;
+  }
+  .menu-bar {
+    display: inline;
+    font-size: 30px;
+  }
+  .menu-bar a {
+    color: black;
+    font-weight: 700;
+  }
+}
